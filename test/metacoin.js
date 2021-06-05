@@ -1,3 +1,5 @@
+// テスト用のコード
+// MetaCoinコントラクトを読み込んでインスタンス化
 const MetaCoin = artifacts.require("MetaCoin");
 
 contract('MetaCoin', (accounts) => {

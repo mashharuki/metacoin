@@ -1,9 +1,10 @@
-pragma solidity >=0.4.25 <0.7.0;
+pragma solidity >=0.4.25;
 
 import "truffle/Assert.sol";
 import "truffle/DeployedAddresses.sol";
 import "../contracts/MetaCoin.sol";
 
+// テスト用コード
 contract TestMetaCoin {
 
   function testInitialBalanceUsingDeployedContract() public {
